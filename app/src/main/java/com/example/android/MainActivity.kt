@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
 
         web = findViewById(R.id.webView)
         web.webViewClient = WebViewClient()
-        web.loadUrl("http://localhost:3000")
+        web.loadUrl("https://curriculum-vitae-project.vercel.app")
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true
         web.settings.setSupportZoom(true)
