@@ -8,7 +8,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.android"
+        applicationId = "com.thorn_pear.android.cv"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
